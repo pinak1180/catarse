@@ -82,6 +82,8 @@ gem 'has_scope', '>= 0.6.0.rc'
 gem 'spectator-validates_email',  require: 'validates_email'
 gem 'video_info', '~> 2.4.2'
 gem 'typhoeus'
+gem 'mina-bower', github: 'apsure/mina-bower'
+gem 'mina-sidekiq'
 
 # Translations
 gem 'http_accept_language'
@@ -119,6 +121,7 @@ group :development do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'thin'
+  gem 'mina'
   # Uncomment only for optimization, should be commented on master branch
   # gem 'rack-mini-profiler'
   # gem 'ruby-prof'
