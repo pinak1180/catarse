@@ -82,7 +82,6 @@ gem 'has_scope', '>= 0.6.0.rc'
 gem 'spectator-validates_email',  require: 'validates_email'
 gem 'video_info', '~> 2.4.2'
 gem 'typhoeus'
-gem 'mina-bower', github: 'apsure/mina-bower'
 gem 'mina-sidekiq'
 
 # Translations

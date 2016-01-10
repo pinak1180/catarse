@@ -1,11 +1,4 @@
 GIT
-  remote: git://github.com/apsure/mina-bower.git
-  revision: 00f98fe6382bf21904dec8e6bfb3988ebcce7d88
-  specs:
-    mina-bower (0.0.1)
-      mina (~> 0.3)
-
-GIT
   remote: git://github.com/bernat/best_in_place
   revision: ee95961e639022e6aa528704b8cb4789596ea61b
   ref: ee95961e639022e6aa528704b8cb4789596ea61b
@@ -567,7 +560,6 @@ DEPENDENCIES
   letter_opener
   mail_form
   mina
-  mina-bower!
   mina-sidekiq
   mini_magick
   mixpanel-ruby

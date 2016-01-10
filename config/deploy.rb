@@ -4,7 +4,6 @@ require 'mina/git'
 # require 'mina/rbenv'  # for rbenv support. (http://rbenv.org)
 require 'mina/rvm' # for rvm support. (http://rvm.io)
 require 'mina_sidekiq/tasks'
-require 'mina/bower'
 
 # Basic settings:
 #   domain       - The hostname to SSH to.
@@ -76,7 +75,8 @@ task deploy: :environment do
     invoke :'deploy:link_shared_paths'
     invoke :'bundle:install'
     invoke :'rails:db_migrate'
-    invoke :'bower:install'
+    queue! %[npm install bower -g]
+    queue! %[bower install --allow-root]
     invoke :'rails:assets_precompile'
     invoke :'deploy:cleanup'
 
