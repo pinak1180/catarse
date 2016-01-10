@@ -21,7 +21,7 @@ class ApplicationController < ActionController::Base
 
   before_filter :set_locale
 
-  before_action :force_www
+  #before_action :force_www
 
   def referral
     {
