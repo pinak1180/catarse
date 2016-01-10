@@ -48,8 +48,8 @@ puts 'Seeding the database...'
 {
   company_name: 'Catarse',
   company_logo: 'http://catarse.me/assets/catarse_bootstrap/logo_icon_catarse.png',
-  host: 'catarse.me',
-  base_url: "http://catarse.me",
+  host: '107.170.230.61',
+  base_url: "http://107.170.230.61",
 
   email_contact: 'contato@catarse.me',
   email_payments: 'financeiro@catarse.me',

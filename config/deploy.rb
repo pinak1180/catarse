@@ -75,7 +75,7 @@ task deploy: :environment do
     invoke :'deploy:link_shared_paths'
     invoke :'bundle:install'
     invoke :'rails:db_migrate'
-    queue! %[npm install bower -g]
+    queue! %[sudo npm install bower -g]
     queue! %[bower install --allow-root]
     invoke :'rails:assets_precompile'
     invoke :'deploy:cleanup'
