@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 ruby '2.2.3'
 
 gem 'rails', '~> 4.1.6'
+gem 'rails_db'
+gem 'axlsx_rails'
+gem 'zip-zip' 
 
 gem 'protected_attributes'
 gem 'rails-observers'
