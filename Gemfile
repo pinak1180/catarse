@@ -5,7 +5,7 @@ ruby '2.2.3'
 gem 'rails', '~> 4.1.6'
 gem 'rails_db'
 gem 'axlsx_rails'
-gem 'zip-zip' 
+gem 'zip-zip'
 
 gem 'protected_attributes'
 gem 'rails-observers'
@@ -22,7 +22,7 @@ gem 'statesman'
 
 # Database and data related
 gem 'pg', '0.17.1'
-gem 'dbhero', '>= 1.1.8'
+#gem 'dbhero', '>= 1.1.8'
 gem 'postgres-copy'
 gem 'pg_search'
 gem 'i18n_alchemy'

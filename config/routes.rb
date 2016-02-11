@@ -20,7 +20,7 @@ Catarse::Application.routes.draw do
 
   mount CatarsePagarme::Engine => "/", as: :catarse_pagarme
  #mount CatarseWepay::Engine => "/", as: :catarse_wepay
-  mount Dbhero::Engine => "/dbhero", as: :dbhero
+  #mount Dbhero::Engine => "/dbhero", as: :dbhero
 
   resources :bank_accounts, except: [:destroy, :index] do
     member do
