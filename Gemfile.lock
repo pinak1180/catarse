@@ -166,7 +166,7 @@ GEM
       faraday_middleware (~> 0.9)
       loofah (~> 2.0)
       sax-machine (~> 1.0)
-    ffi (1.9.10)
+    ffi (1.9.14)
     fog-aws (0.7.6)
       fog-core (~> 1.27)
       fog-json (~> 1.0)
