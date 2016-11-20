@@ -96,7 +96,7 @@ group :production do
   gem 'fog-aws'
 
   # Workers, forks and all that jazz
-  gem 'unicorn'
+  #gem 'unicorn'
 
   # Enabling Gzip on Heroku
   # If you don't use Heroku, please comment the line below.

@@ -230,7 +230,6 @@ GEM
     kaminari (0.16.3)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    kgio (2.9.3)
     launchy (2.4.3)
       addressable (~> 2.3)
     letter_opener (1.4.1)
@@ -354,7 +353,6 @@ GEM
       activesupport (= 4.1.14)
       rake (>= 0.8.7)
       thor (>= 0.18.1, < 2.0)
-    raindrops (0.15.0)
     rake (10.4.2)
     ranked-model (0.4.0)
       activerecord (>= 3.1.12)
@@ -484,10 +482,6 @@ GEM
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.1)
-    unicorn (5.0.1)
-      kgio (~> 2.6)
-      rack
-      raindrops (~> 0.7)
     user_notifier (0.2.0)
       rails (>= 4.0.0)
       sidekiq
@@ -594,7 +588,6 @@ DEPENDENCIES
   to_xls
   typhoeus
   uglifier
-  unicorn
   user_notifier (~> 0.2.0)
   video_info (~> 2.4.2)
   zip-zip
